@@ -123,3 +123,91 @@ body {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+/* Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #f4f4f4;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Styled Forms */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}
+
+form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Signup/Login form section */
+#signup {
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Gallery Section */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery figure {
+  margin: 0;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.gallery img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery figure:hover {
+  transform: scale(1.05);
+}
+
+.gallery figcaption {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #444;
+}
