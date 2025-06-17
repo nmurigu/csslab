@@ -1,6 +1,6 @@
 h1, h2, h3, form, header, p {
 	text-align: center;
-	color: darkgray;
+	color: black;
 }
 img {
   padding: inherit;
@@ -8,7 +8,7 @@ img {
   width: 350px;
   display: block;
 }
-/* General Reset */
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -16,7 +16,7 @@ body {
   background-color: #e9f1f7;
 }
 
-/* Header Section */
+
 .header {
   background-color: #333;
   color: white;
@@ -25,7 +25,7 @@ body {
   border-bottom: 4px solid #ccc;
 }
 
-/* Flip Card Container */
+
 .lead-container {
   display: flex;
   justify-content: center;
@@ -33,7 +33,7 @@ body {
 }
 
 
-/* Flip Card Styles */
+
 .flip-card {
   background-color: transparent;
   width: 250px;
@@ -42,7 +42,7 @@ body {
   margin: 0 auto;
 }
 
-/* Flip card rotating element*/
+
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -51,12 +51,12 @@ body {
   transform-style: preserve-3d;
 }
 
-/* set rotation on hover*/
+
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* card styling*/
+
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -74,27 +74,19 @@ body {
   border-radius: 50%;
 }
 
-/* differentiating the sides with colors*/
+
 .flip-card-front {
-  background-color: #fff;
+  background-color: #brown;
 }
 
-/* differentiating the sides with colors*/
+
 .flip-card-back {
-  background-color: #007bff;
+  background-color: #black;
   color: white;
   transform: rotateY(180deg);
 }
 
-/* Team Cards 
-.team {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  text-align: center;
-}
-*/
+
 
 .team {
   display: grid;
@@ -119,17 +111,17 @@ body {
   color: #666;
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* Google Font */
+
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* Navigation Bar Styling */
+
 nav {
   background-color: #222;
   padding: 10px 0;
@@ -145,7 +137,7 @@ nav a:hover {
   color: #ffcc00;
 }
 
-/* Styled Forms */
+
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -172,14 +164,14 @@ form input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/* Signup/Login form section */
+
 #signup {
   padding: 30px;
-  background-color: #f9f9f9;
+  background-color: #sandybrown;
   text-align: center;
 }
 
-/* Gallery Section */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
